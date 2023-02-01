@@ -4,7 +4,7 @@
 :root {
   --primary-color: #ff3d3de3;
   --secundary-color: #232323;
-  --terciary-color: #d6d4dd;
+  --terciary-color: #d9d7e2ee;
   --quaternary-color: #dd0e0ed0;
 
 }
@@ -20,7 +20,7 @@
 .home {
   height: 100vh;
   width: 100%;
-  background: url(./images/backgroun-image-red2.jpg);
+  background: url(../images/backgroun-image-red2\ degradado\ jpg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 740px;
@@ -170,7 +170,6 @@
   .col {
     margin:-60px auto 35px auto;
   }
-
 }
 
 @media (max-width: 335px) {
@@ -447,10 +446,11 @@
 /* section My Work */
 
 .My-Work {
-  background: url(./images/bg-my-workjpg.jpg);
+  background: url(../images/bg-my-workjpg.jpg);
   background-position: 100% 100%;
   background-size: auto 100%;
   background-repeat: repeat-x;
+  padding-bottom: 70px;
 }
 
 .subtitle2{
@@ -532,4 +532,84 @@
   background: black;
   padding: 5px;
   font-size: 24px;
+}
+
+/* Contact section */
+
+.contact-me {
+  padding-top: 30px ;
+  background: url(../images/footer-bg3.jpg);
+  background-size: contain;
+  height: 280px;
+  background-repeat: repeat-x;
+}
+
+@media (max-width:765px) {
+  .contact-me {
+    background-size: cover;
+    height: 400px;
+  }
+}
+
+.contaner-contact {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 30%;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px auto;
+  height: 100%;
+  width: 100%;
+}
+
+.items {
+  font-size: 30px;
+  margin: auto 10px;
+  background:#ff6a6a;
+  padding: 7px;
+  color: black;
+  border-radius: 10px;
+  transition: all 400ms ease;
+}
+
+.wht:hover{
+  color: white;
+  background: rgb(133, 214, 10);
+  transition: all 400ms ease;
+}
+
+.insta:hover {
+  color: white;
+  transition: all 400ms ease;
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+.git:hover {
+  color: white;
+  transition: all 400ms ease;
+  background: black;
+}
+
+.email:hover {
+  color: rgb(221, 1, 1);
+  transition: all 400ms ease;
+  background: white;
+}
+
+.linke:hover {
+  color: rgb(255, 255, 255);
+  transition: all 400ms ease;
+  background: rgb(0, 140, 255);
+}
+
+.contact-text {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto 30px auto;
+  width: 80%;
+  text-align: center;
 }
