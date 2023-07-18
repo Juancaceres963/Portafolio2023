@@ -502,8 +502,15 @@
   transition: all 400ms ease;
 }
 
+.unidad img{
+  width: 100%;
+  height: 260px;
+  transition: all 400ms ease;
+  border-bottom: 2px solid black;
+  object-fit: cover;
+}
+
 .unidad:hover {
-  position: relative;
   width: 322px;
   transition: all 500ms ease;
   opacity: 1;
@@ -514,13 +521,6 @@
   font-size: 15px;
   text-align: center;
   width: 300px;
-}
-
-.unidad img{
-  width: 100%;
-  height: 260px;
-  transition: all 400ms ease;
-  border-bottom: 2px solid black;
 }
 
 .unidad a{
