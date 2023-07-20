@@ -455,6 +455,29 @@
   background-size: auto 100%;
   background-repeat: repeat-x;
   padding-bottom: 70px;
+  position: relative;
+}
+
+.contenidosItemscarrousel {
+  overflow: hidden;
+  height: 350px;
+  width: 100%;
+  align-items: center;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.proyectos {
+  height: 100%;
+  display: flex;
+  overflow: hidden;
 }
 
 .subtitle2{
@@ -510,7 +533,7 @@
   width: 100%;
   height: 260px;
   transition: all 400ms ease;
-  border-bottom: 2px solid black;
+  border-bottom: 5px solid rgba(114, 114, 114, 0.945);
   object-fit: cover;
 }
 
@@ -535,6 +558,7 @@
 .unidad h2 {
   background: black;
   padding: 5px;
+  margin: 0;
   font-size: 24px;
 }
 
@@ -570,8 +594,8 @@
 .items {
   font-size: 30px;
   margin: auto 10px;
+  padding: 8px;
   background:#ff6a6a;
-  padding: 7px;
   color: black;
   border-radius: 10px;
   transition: all 400ms ease;
