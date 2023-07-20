@@ -448,7 +448,7 @@
 /* section My Work */
 
 .My-Work {
-  background: url(../images/bg-my-workjpg.jpg);
+  background: url(https://res.cloudinary.com/dahz5phaf/image/upload/v1689822178/bg-my-workjpg_ouhdhz.jpg);
   background-position: 100% 100%;
   background-size: auto 100%;
   background-repeat: repeat-x;
@@ -540,7 +540,7 @@
 
 .contact-me {
   padding-top: 30px ;
-  background: url(../images/footer-bg3.jpg);
+  background: url(https://res.cloudinary.com/dahz5phaf/image/upload/v1689822269/footer-bg3_ubzf73.jpg);
   background-size: contain;
   height: 280px;
   background-repeat: repeat-x;
